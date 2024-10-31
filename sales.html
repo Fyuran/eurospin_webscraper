@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Promozioni Callcenter" />
+    <meta name="keywords" content="callcenter, informazioni, richieste" />
+    <meta name="author" content="Classe BitCamp" />
+    <title>Callcenter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="sales.js"></script>
+</head>
+
+<body>
+    <div class="product-panel-header">
+        <h1>Promozioni Trovate:</h1>
+    </div>
+
+    <div class="select-group">
+        <form method="GET" id="filter-form-category">
+            <select class="formbold-form-select" name="category" id="category">
+                <option value="ALL">Tutte le categorie</option>
+            </select>
+            <label for="category" class="formbold-form-label">
+                Categoria Prodotto </label>
+        </form>
+        <form method="GET" id="filter-form-brand">
+            <select class="formbold-form-select" name="brand" id="brand">
+                <option value="ALL">Tutte le marche</option>
+            </select>
+            <label for="brand" class="formbold-form-label">
+                Marca Prodotto </label>
+        </form>
+    </div>
+
+    <div class="product-panel-grid">
+    </div>
+</body>
+
+</html>

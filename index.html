@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="description" content="Homepage Callcenter" />
+    <meta name="keywords" content="callcenter, informazioni, richieste" />
+    <meta name="author" content="Classe BitCamp" />
+    <title>Callcenter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="formbold-main-wrapper">
+        <div class="formbold-form-wrapper">
+            <form method="POST" id="callcenter-form">
+                <div class="formbold-input-flex">
+                    <div class="formbold-input-group">
+                        <input type="text" name="given-name" id="given-name" placeholder="Mario" autocomplete="given-name"
+                            required class="formbold-form-input" />
+                        <label for="given-name" class="formbold-form-label">
+                            Nome </label>
+                    </div>
+                    <div class="formbold-input-group">
+                        <input type="text" name="family-name" id="family-name" placeholder="Rossi" autocomplete="family-name"
+                            required class="formbold-form-input" />
+                        <label for="family-name" class="formbold-form-label">
+                            Cognome </label>
+                    </div>
+                    <div class="formbold-input-group">
+                        <input type="email" name="email" id="email" placeholder="mario.rossi@mail.com"
+                            autocomplete="email" required class="formbold-form-input" />
+                        <label for="email" class="formbold-form-label"> Mail
+                        </label>
+                    </div>
+                    <div class="formbold-input-group">
+                        <input type="text" name="tel" id="tel" placeholder="+39335669871" autocomplete="tel"
+                            required class="formbold-form-input" />
+                        <label for="tel" class="formbold-form-label">
+                            Telefono </label>
+                    </div>
+                    <div class="formbold-input-group">
+                        <div>
+                            <div>
+                                <select class="formbold-form-select" name="category" id="category" required>
+                                </select>
+                                <label for="category" class="formbold-form-label">
+                                    Categoria Prodotto </label>
+                            </div>
+                            <div>
+                                <select class="formbold-form-select" name="brand" id="brand" required>
+                                </select>
+                                <label for="brand" class="formbold-form-label">
+                                    Marca Prodotto </label>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="formbold-btn">
+                        Invia Messaggio
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
